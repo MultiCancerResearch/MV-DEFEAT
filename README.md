@@ -2,6 +2,8 @@
 
 This repository provides the code for our paper "MV-DEFAT:Multi-View Deep Evidential Neural Network For Assessment Of Mammograms"
 
+$\color[rgb]{1,0,1} hello$
+
 ${\color{red}Notice, this repository is only for the reviwer purpose, we will open-source the complete working code after the manuscript acceptance. }$
 
 
