@@ -11,6 +11,8 @@ $\color[rgb]{1,0,0} !$ Notice, this repository is only for the reviwer purpose, 
 
 We proposed a multi-view deep evidential neural network approach for assessment of mammograms by aggregating multiple views of a mammogram and utilizing the Dempster-Shafer evidential learning and combination rule to handle uncertain or conflicting evidence. 
 
+<div align=center><img width="900" height="400" alt="MV-DEFEAT" src="https://github.com/MultiCancerResearch/MV-DEFEAT/images/mv_deadeat.jpg"/></div>
+
 The main objectives of the proposed approach are to enhance the precision and reliability of the mammogram density assessment by using a multi-view method and an
 evidential optimization loss function. The main contributions of this study are as follows:
 1. Performing extensive experiments to identify the optimal pre-trained CNN model for mammogram assessment task.
@@ -38,8 +40,8 @@ timm
 
 Please, change the config file path for dataset path. Create log file folder to save the model path. 
 
-Training: python train.py --config_path ddsm_ipsilateral_config.yml
-Evaluation: python evaluate.py
+Training: 'python train.py --config_path ddsm_ipsilateral_config.yml'
+Evaluation: 'python evaluate.py'
 
 
 ### Acknowledgement
