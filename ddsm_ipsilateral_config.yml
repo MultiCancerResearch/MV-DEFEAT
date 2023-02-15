@@ -1,0 +1,32 @@
+data:
+    root: /external_data/MIDL_rev/data/DDSM
+    dataset_name: DDSM
+    batch_size: 4
+    workers: 10
+    task: density
+    laterality: multi
+    analysis: ipsilateral_right
+arch:
+    num_classes: 4
+    model: densenet161
+    pretrained: true
+    dropout: 0.2
+loss:
+    annealing_coef: 0.5
+
+optimizer:
+    type: adam
+    lr: 0.0001
+    lr_decay_epochs: [4]
+    momentum: 0.9
+    weight_decay: 0.0001
+training:
+    fusion_type: DL
+    logs_dir: /external_data/MIDL_revision/multi_logs
+    checkpoints_dir: /external_data/MIDL_revision/multi_checkpoints
+    print_freq: 10
+    checkpoint_epochs: 1
+    experiment_name: ddsm_density
+    log_dir:
+    epochs: 20
+    resume:
