@@ -11,7 +11,7 @@ $\color[rgb]{1,0,0} !$ Notice, this repository is only for the reviwer purpose, 
 
 We proposed a multi-view deep evidential neural network approach for assessment of mammograms by aggregating multiple views of a mammogram and utilizing the Dempster-Shafer evidential learning and combination rule to handle uncertain or conflicting evidence. 
 
-<div align=center><img width="900" height="400" alt="MV-DEFEAT" src="https://github.com/MultiCancerResearch/MV-DEFEAT/images/mv_deadeat.jpg"/></div>
+<div align=center><img width="900" height="400" alt="MV-DEFEAT" src="https://github.com/MultiCancerResearch/MV-DEFEAT/images/mv_deadeat.png"/></div>
 
 The main objectives of the proposed approach are to enhance the precision and reliability of the mammogram density assessment by using a multi-view method and an
 evidential optimization loss function. The main contributions of this study are as follows:
