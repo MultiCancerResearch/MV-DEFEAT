@@ -1,15 +1,12 @@
 # MV-DEFEAT
 
-This repository provides the code for our paper "MV-DEFAT:Multi-View Deep Evidential Neural Network For Assessment Of Mammograms"
-
-$\color[rgb]{1,0,0} !$ Notice, this repository is only for the reviwer purpose, we will open-source the complete working code after the manuscript acceptance. 
-
+This repository provides the code for our paper "An evidential deep learning framework for multi-view mammogram analysis"
 
 
 
 ### Introduction
 
-We proposed a multi-view deep evidential neural network approach for assessment of mammograms by aggregating multiple views of a mammogram and utilizing the Dempster-Shafer evidential learning and combination rule to handle uncertain or conflicting evidence. 
+We proposed a multi-view deep evidential neural network approach for assessment of mammograms by aggregating multiple views of a mammogram, utilizing the potential of Dempster-Shafer evidential theory and combination rule to handle uncertain or conflicting evidence. 
 
 
 <div align=center><img width="900" height="400" alt="MV-DEFEAT" src="images/mv_defeat.png"/></div>
